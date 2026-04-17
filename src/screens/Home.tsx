@@ -73,7 +73,7 @@ export default function Home() {
         {/* CENTER SECTION - PORTRAIT */}
         <div className="relative flex justify-center z-30 order-1 md:order-2 px-10">
           {/* SWITCH: MODE */}
-          <div className="absolute top-0 right-0 translate-x-10 -translate-y-8 z-[9999]">
+          <div className="absolute top-4 right-4 md:top-0 md:right-0 translate-x-10 -translate-y-8 z-[9999]">
             <motion.div
               className="flex flex-col items-center cursor-pointer"
               onClick={toggleTheme}
@@ -86,7 +86,7 @@ export default function Home() {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1.2 }}
                     exit={{ opacity: 0, scale: 0.5 }}
-                    className={`w-14 h-14 rounded-full border border-white/20 shadow-xl relative transition-all duration-700 ${isLit ? "bg-gradient-to-tr from-orange-400 to-yellow-200 shadow-yellow-400/50" : "bg-gradient-to-tr from-slate-900 to-cyan-800"}`}
+                    className={`w-10 h-10 md:w-14 md:h-14 rounded-full border border-white/20 shadow-xl relative transition-all duration-700 ${isLit ? "bg-gradient-to-tr from-orange-400 to-yellow-200 shadow-yellow-400/50" : "bg-gradient-to-tr from-slate-900 to-cyan-800"}`}
                   >
                     {!isLit && (
                       <div className="absolute inset-0 overflow-hidden rounded-full">
@@ -101,7 +101,7 @@ export default function Home() {
                 </AnimatePresence>
               </div>
               <span
-                className={`text-[9px] font-black tracking-widest ${theme.accent}`}
+                className={`text-[7px] md:text-[9px] font-black tracking-widest ${theme.accent}`}
               >
                 SWITCH
               </span>
@@ -135,19 +135,18 @@ export default function Home() {
           </div>
 
           {/* NAME CARD */}
-          <div className="absolute top-[45%] -right-8 z-50 rotate-6 transform-gpu transition-all hover:rotate-0 hover:scale-105">
+          <div className="absolute bottom-10 -right-4 md:top-[45%] md:-right-8 z-50 rotate-6 transform-gpu transition-all hover:rotate-0 hover:scale-105">
             <div
-              className={`p-3 md:p-5 border-2 border-black min-w-[190px] transition-all duration-700 ${theme.card}`}
+              className={`p-3 md:p-5 border-2 border-black min-w-[190px] md:min-w-[190px] transition-all duration-700 ${theme.card}`}
             >
-              <h4
-                className={`text-[10px] font-black uppercase tracking-[0.4em] ${theme.accent}`}
-              >
+              <h4 
+                className={`text-[8px] md:text-[10px] font-black uppercase tracking-[0.4em] ${theme.accent}`}>
                 SDET • ART
               </h4>
               <p className="text-3xl md:text-5xl font-black italic uppercase leading-none">
                 Tuyet
               </p>
-              <div className="mt-2 md:mt-4 h-[2px] bg-black/10" />
+              <div className="mt-2 md:mt-4 h-[1px] md:h-[2px] bg-black/10" />
               <p className="text-[7px] md:text-[9px] mt-2 opacity-60 tracking-widest uppercase">
                 © PORTFOLIO 2026
               </p>
