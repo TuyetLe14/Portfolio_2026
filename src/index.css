@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-prismatic-white: #f8fafc;
+  --color-prismatic-glass: rgba(255, 255, 255, 0.1);
+  --color-prismatic-border: rgba(255, 255, 255, 0.2);
+  --color-obsidian: #050505;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* KHÔNG ĐƯỢC dùng overflow: hidden ở đây */
+    @apply bg-slate-950 text-slate-100 font-sans antialiased overflow-x-hidden;
+  }
+}
+
+.glass-morphism {
+  @apply bg-white/10 backdrop-blur-xl border border-white/20;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400;
+}
+
+.diamond-glow {
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
+}
