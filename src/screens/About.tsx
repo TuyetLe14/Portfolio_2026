@@ -49,7 +49,7 @@ export default function About() {
           <div className={`relative aspect-[4/5] w-full max-w-[300px] sm:max-w-[340px] lg:max-w-[380px] rounded-[3rem] p-3 transition-all duration-700 z-10 ${theme.glass}`}>
             <div className="w-full h-full overflow-hidden rounded-[2.2rem] relative">
               <img 
-                src="src/public/about.jpg" 
+                src="about.jpg" 
                 alt="Profile Photo" 
                 className="w-full h-full object-cover transition-all duration-1000 transform group-hover:scale-105"
               />

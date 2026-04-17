@@ -119,7 +119,7 @@ export default function Home() {
               }}
             >
               <img
-                src="src\public\home.png"
+                src="home.png"
                 alt="Portrait"
                 className="w-full h-full object-cover transition-all duration-700"
                 style={{
@@ -175,7 +175,7 @@ export default function Home() {
               style={{ background: theme.rainbow }}
             />
             <a
-              href="src\public\Tester_LeHuynhAnhTuyet.pdf"
+              href="Tester_LeHuynhAnhTuyet.pdf"
               download
               className={`relative z-10 px-7 py-4 rounded-full flex items-center justify-between gap-4 transition-all duration-700 backdrop-blur-2xl ${theme.buttonInner}`}
             >
