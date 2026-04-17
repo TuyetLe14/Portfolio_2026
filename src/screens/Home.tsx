@@ -119,7 +119,7 @@ export default function Home() {
               }}
             >
               <img
-                src="home.png"
+                src="src\assets\home.png"
                 alt="Portrait"
                 className="w-full h-full object-cover transition-all duration-700"
                 style={{
