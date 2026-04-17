@@ -4,6 +4,7 @@ import { FaGithub, FaFacebook, FaTiktok } from "react-icons/fa";
 import CrystalBackground from "../components/CrystalBackground";
 import { useTheme } from "../components/ThemeContext";
 import portraitImg from "../assets/home.png";
+import myCV from "../assets/Tester_LeHuynhAnhTuyet.pdf";
 const OptimizedBackground = memo(CrystalBackground);
 
 export default function Home() {
@@ -175,7 +176,7 @@ export default function Home() {
               style={{ background: theme.rainbow }}
             />
             <a
-              href="src/assets/Tester_LeHuynhAnhTuyet.pdf"
+              href={myCV}
               download
               className={`relative z-10 px-7 py-4 rounded-full flex items-center justify-between gap-4 transition-all duration-700 backdrop-blur-2xl ${theme.buttonInner}`}
             >
