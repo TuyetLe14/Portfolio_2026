@@ -79,7 +79,7 @@ export default function Home() {
               onClick={toggleTheme}
               whileTap={{ scale: 0.9 }}
             >
-              <div className="relative w-20 h-20 flex items-center justify-center">
+              <div className="relative w-12 h-12 md:w-20 md:h-20 flex items-center justify-center">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={isLit ? "sun" : "moon"}
@@ -137,18 +137,18 @@ export default function Home() {
           {/* NAME CARD */}
           <div className="absolute top-[45%] -right-8 z-50 rotate-6 transform-gpu transition-all hover:rotate-0 hover:scale-105">
             <div
-              className={`p-5 border-2 border-black min-w-[190px] transition-all duration-700 ${theme.card}`}
+              className={`p-3 md:p-5 border-2 border-black min-w-[190px] transition-all duration-700 ${theme.card}`}
             >
               <h4
                 className={`text-[10px] font-black uppercase tracking-[0.4em] ${theme.accent}`}
               >
                 SDET • ART
               </h4>
-              <p className="text-5xl font-black italic uppercase leading-none">
+              <p className="text-3xl md:text-5xl font-black italic uppercase leading-none">
                 Tuyet
               </p>
-              <div className="mt-4 h-[2px] bg-black/10" />
-              <p className="text-[9px] mt-2 opacity-60 tracking-widest uppercase">
+              <div className="mt-2 md:mt-4 h-[2px] bg-black/10" />
+              <p className="text-[7px] md:text-[9px] mt-2 opacity-60 tracking-widest uppercase">
                 © PORTFOLIO 2026
               </p>
             </div>
