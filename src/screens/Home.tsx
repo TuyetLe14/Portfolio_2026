@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <div
-      className={`min-h-screen relative flex items-center justify-center p-6 overflow-hidden transition-colors duration-700 ${theme.bg}`}
+      className={`min-h-screen relative flex items-center justify-center pl-20 md:pl-40 pr-6 overflow-hidden transition-colors duration-700 ${theme.bg}`}
     >
       {/* LAYER BACKGROUND */}
       <div
