@@ -16,15 +16,6 @@ import Skills from "./screens/Skills";
 function AppContent() {
   const { isLit } = useTheme();
 
-  const screens = [
-    { id: "home", content: <Home /> },
-    { id: "about", content: <About /> },
-    { id: "projects", content: <Projects /> },
-    { id: "skills", content: <Skills /> },
-    { id: "certifications", content: <Certifications /> },
-    { id: "contact", content: <Contact /> },
-  ];
-
   return (
     <Router>
       <LazyMotion features={domMax}>
@@ -40,12 +31,12 @@ function AppContent() {
 
           <main className="relative z-10 w-full min-h-screen">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/skills" element={<Skills />} />
-              <Route path="/certifications" element={<Certifications />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/Home" element={<Home />} />
+              <Route path="/About" element={<About />} />
+              <Route path="/Projects" element={<Projects />} />
+              <Route path="/Skills" element={<Skills />} />
+              <Route path="/Certifications" element={<Certifications />} />
+              <Route path="/Contact" element={<Contact />} />
             </Routes>
           </main>
 
