@@ -2,20 +2,22 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Home, User, Briefcase, Code, Award, Mail } from 'lucide-react';
 import { useTheme } from './ThemeContext';
+import { NavLink, useLocation } from 'react-router-dom';
 
 export type Screen = 'home' | 'about' | 'projects' | 'skills' | 'certifications' | 'contact';
 
-const navItems: { id: Screen; icon: any; label: string }[] = [
-  { id: 'home', icon: Home, label: 'Home' },
-  { id: 'about', icon: User, label: 'About' },
-  { id: 'projects', icon: Briefcase, label: 'Projects' },
-  { id: 'skills', icon: Code, label: 'Skills' },
-  { id: 'certifications', icon: Award, label: 'Certs' },
-  { id: 'contact', icon: Mail, label: 'Contact' },
+const navItems: { id: Screen; icon: any; label: string; path: string }[] = [
+  { id: 'home', icon: Home, label: 'Home', path: '/' },
+  { id: 'about', icon: User, label: 'About',path: '/about' },
+  { id: 'projects', icon: Briefcase, label: 'Projects', path: '/projects' },
+  { id: 'skills', icon: Code, label: 'Skills', path: '/skills' },
+  { id: 'certifications', icon: Award, label: 'Certs', path: '/certifications' },
+  { id: 'contact', icon: Mail, label: 'Contact', path: '/contact' },
 ];
 
-export default function Navigation({ currentScreen, onNavigate }: { currentScreen: Screen; onNavigate: (s: Screen) => void }) {
+export default function Navigation() {
   const { isLit } = useTheme();
+  const location = useLocation();
 
   return (
     <nav className={`fixed z-[999] transition-all duration-700
@@ -36,12 +38,12 @@ export default function Navigation({ currentScreen, onNavigate }: { currentScree
       >
         {navItems.map((item) => {
           const Icon = item.icon;
-          const isActive = currentScreen === item.id;
+          const isActive = location.pathname === item.path;
           
           return (
-            <button
+            <NavLink
               key={item.id}
-              onClick={() => onNavigate(item.id)}
+              to={item.path}
               className="relative p-3 group transition-colors focus:outline-none"
             >
               <Icon 
@@ -66,7 +68,7 @@ export default function Navigation({ currentScreen, onNavigate }: { currentScree
               >
                 {item.label}
               </span>
-            </button>
+            </NavLink>
           );
         })}
       </div>
