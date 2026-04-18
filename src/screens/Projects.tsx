@@ -32,7 +32,7 @@ const domains = [
   { name: "InsurTech", icon: <ShieldCheck size={12} /> },
   { name: "EdTech", icon: <GraduationCap size={12} /> },
   { name: "E-commerce", icon: <ShoppingCart size={12} /> },
-  { name: "Blockchain", icon: <LinkIcon size={12} /> },
+  { name: "Fintech / Blockchain", icon: <LinkIcon size={12} /> },
   // { name: "Cybersecurity", icon: <ShieldCheck size={12} /> },
   { name: "AI & Vision", icon: <Cpu size={12} /> },
 ];
@@ -48,7 +48,7 @@ const companyProjects: Project[] = [
     description:
       "Deep-dive into complex business requirements (BRD/SRS) for a large-scale US insurance system. Led functional, regression, and integration testing across multiple modules.",
     achievement:
-      "Ensured 100% stability for high-value transactions under US Market Standards. Validated complex logic across 30+ cross-functional members.",
+      "Collaborated with a 30-member team to maintain high-quality standards for a large-scale Insurtech platform, ensuring a stable release.",
     isFeatured: true,
   },
   {
@@ -61,30 +61,30 @@ const companyProjects: Project[] = [
     description:
       "Owned end-to-end testing for Web & Mobile educational platform. Created master test plans and ensured full coverage.",
     achievement:
-      "Achieved 100% test coverage for all critical educational modules.",
+      "Maintained high-quality standards for the platform, contributing to a bug-free experience for end-users.",
   },
   {
     title: "Blockchain Wallet System",
     category: "Backend Development & QA",
     image:
       "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800",
-    teamsize: "10 members",
+    teamsize: "12 members",
     tools: "C#, .NET, Firebase, SQL Server",
     description:
-      "Engineered a robust backend with Firebase, focusing on security and real-time updates at Data Design Vietnam.",
+      "Engineered a secure backend with Firebase while developing automated test scripts for API and SQL databases to ensure system stability and data accuracy.",
     achievement:
-      "Achieved 95% transaction accuracy & Real-time database solutions.",
+      "Optimized system reliability by conducting performance testing with JMeter, ensuring the blockchain network could handle high transaction volumes while maintaining data integrity and Smart Contract stability.",
   },
   {
     title: "YOLO Online Shopping System",
-    category: "Fullstack Development (Intern)",
+    category: "Fullstack Development & QA (Intern)",
     image:
       "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=800",
     teamsize: "Internship team",
     tools: "JavaScript, VS Code, Postman",
     description:
-      "Crafted a responsive frontend and optimized APIs/Firebase during internship at Data Design Vietnam.",
-    achievement: "Boosting performance by 20% & Mastered MVC architecture.",
+      "Developed a responsive frontend and optimized API integrations with backend services to ensure a seamless shopping experience.",
+    achievement: "Successfully ensured data synchronization across the platform, maintaining high transaction reliability and system stability during the testing phases & Mastered MVC architecture.",
   },
   {
     title: "Website BMA Calculator",
@@ -94,8 +94,8 @@ const companyProjects: Project[] = [
     teamsize: "Testing Team",
     tools: "Selenium, Java",
     description:
-      "Developed automated testing scripts with Selenium to optimize the testing lifecycle at Testing Vietnam.",
-    achievement: "Cutting manual effort by 30% & Implemented CI/CD pipeline.",
+      "Developed and maintained automated testing scripts using Selenium to cover key functional flows of the system at Testing Vietnam",
+    achievement: "Optimized testing workflows by integrating automated checks into the CI/CD pipeline, significantly reducing repetitive manual efforts and allowing for a deeper focus on complex business logic.",
   },
   {
     title: "VeSiMang’s Website",
@@ -105,9 +105,9 @@ const companyProjects: Project[] = [
     teamsize: "Internal Team",
     tools: "C#, ASP.NET MVC",
     description:
-      "Developed and maintained the company website, focusing on cybersecurity solutions at Data Design Vietnam.",
+      "Developed and maintained the official company website, ensuring a responsive interface and optimized performance across all devices.",
     achievement:
-      "Delivered a secure website aligning with 'Protect Together' mission.",
+      "Enhanced user engagement by improving page load speeds and delivering a professional, modern UI that reflects the company's cybersecurity expertise.",
   },
   {
     title: "OrangeHRM Manual Testing",
