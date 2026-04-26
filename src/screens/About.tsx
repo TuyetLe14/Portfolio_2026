@@ -108,7 +108,7 @@ export default function About() {
 
           <div className={`space-y-6 text-sm lg:text-base font-light leading-relaxed transition-colors duration-700 ${theme.subText}`}>
             <p>
-              Software Engineer transitioning into QA Engineering. I combine a solid technical foundation with a commitment to quality to build reliable automated testing solutions and ensure system stability.
+              A dedicated QC/QA Engineer with a solid technical foundation and over 2 years of experience in manual and automation testing. Passionate about building efficient testing solutions for Mobile & Web platforms and ensuring high software quality in Agile environments.
             </p>
 
             {/* --- EDUCATION CARD --- */}

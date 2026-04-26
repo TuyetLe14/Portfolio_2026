@@ -7,7 +7,8 @@ const skillGroups = [
   {
     title: "Testing",
     skills: [
-      "Manual (Web/Mobile)",
+      "Mobile App Testing (iOS/Android)",
+      "Manual (Web)",
       "API Testing (Postman, Rest Assured)",
       "Performance (JMeter: basic load testing)"
     ],

@@ -19,7 +19,6 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    /* KHÔNG ĐƯỢC dùng overflow: hidden ở đây */
     @apply bg-slate-950 text-slate-100 font-sans antialiased overflow-x-hidden;
   }
 }

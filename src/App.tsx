@@ -5,7 +5,6 @@ import CrystalBackground from "./components/CrystalBackground";
 import { ThemeProvider, useTheme } from "./components/ThemeContext";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
-// Import các màn hình (giữ nguyên các import cũ)
 import Home from "./screens/Home";
 import About from "./screens/About";
 import Contact from "./screens/Contact";
