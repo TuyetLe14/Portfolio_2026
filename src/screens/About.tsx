@@ -55,14 +55,13 @@ export default function About() {
                 className="w-full h-full object-cover transition-all duration-1000 transform group-hover:scale-105"
               />
             </div>
-            {/* Tag Badge */}
+
             <div className={`absolute -bottom-3 -right-3 px-6 py-3 rounded-2xl shadow-xl border transition-all duration-700 z-30
               ${isLit ? 'bg-white border-pink-50 text-pink-600 shadow-pink-200/50' : 'bg-slate-900 border-white/10 text-cyan-400'}`}>
               <span className="text-[11px] font-black tracking-widest uppercase">QA Engineer</span>
             </div>
           </div>
 
-          {/* QUICK CONTACT BOX (Dưới ảnh) */}
           <div className={`w-full max-w-[300px] lg:max-w-[380px] p-6 rounded-[2rem] border transition-all duration-700 ${theme.glass}`}>
             <div className="space-y-4">
               <div className="flex items-center gap-4">
@@ -109,7 +108,7 @@ export default function About() {
 
           <div className={`space-y-6 text-sm lg:text-base font-light leading-relaxed transition-colors duration-700 ${theme.subText}`}>
             <p>
-              I am a Software Engineer transitioning into QA Engineering with a background in fullstack development. Leveraging my foundation from UIT, I focus on delivering high-quality technical validation and automated solutions that ensure software reliability at every scale.
+              Software Engineer transitioning into QA Engineering. I combine a solid technical foundation with a commitment to quality to build reliable automated testing solutions and ensure system stability.
             </p>
 
             {/* --- EDUCATION CARD --- */}

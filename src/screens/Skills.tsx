@@ -5,15 +5,11 @@ import CrystalBackground from "../components/CrystalBackground";
 
 const skillGroups = [
   {
-    title: "Manual Testing",
+    title: "Testing",
     skills: [
-      "Functional Testing",
-      "Regression Testing",
-      "Integration Testing",
-      "Smoke Testing",
-      "Equivalence Partitioning",
-      "Boundary Value Analysis",
-      "Defect Lifecycle Management (Jira)",
+      "Manual (Web/Mobile)",
+      "API Testing (Postman, Rest Assured)",
+      "Performance (JMeter: basic load testing)"
     ],
   },
   {
@@ -28,45 +24,27 @@ const skillGroups = [
     ],
   },
   {
-    title: "API & System Testing",
+    title: "Programming & Database:",
     skills: [
-      "REST API (Postman, Rest Assured)",
-      "HTTP Methods",
-      "JSON Validation",
-      "Status Codes",
-      "Distributed Systems Testing",
+      "Java",
+      "SQL (Complex Queries, Joins, Stored Procedures)",
+      "NoSQL (MongoDB - Basic)",
     ],
   },
   {
-    title: "Performance & Database",
-    skills: [
-      "JMeter (Load Testing)",
-      "Concurrent Users",
-      "SQL (Joins, Stored Procedures)",
-      "Data Validation",
-      "MongoDB (Basic)",
-    ],
-  },
-  {
-    title: "Tools & CI/CD",
+    title: "Tools:",
     skills: [
       "Jira",
       "Git",
-      "IntelliJ",
-      "VS Code",
-      "Agile/Scrum (Sprint, UAT)",
-      "Jenkins (Pipeline Awareness)",
+      "Agile/Scrum",
+      "Jenkins (CI/CD Awareness)"
     ],
   },
   {
-    title: "Languages & Others",
+    title: "Other Skills",
     skills: [
-      "Java",
-      "Python",
-      "C# (Basic)",
       "Technical English",
-      "English Communication",
-      "Deep Learning (Self-learning)",
+      "Basic Deep Learning (self-learning)",
     ],
   },
 ];
