@@ -65,8 +65,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-sm italic max-w-sm md:ml-auto leading-relaxed opacity-70">
-            "Combining Fullstack expertise with a QA mindset to engineer
-            high-quality, resilient software solutions.
+            "Combining a solid technical foundation with a QA mindset to deliver high-quality software solutions."
           </p>
         </div>
 
@@ -160,7 +159,7 @@ export default function Home() {
             <h3
               className={`text-xl font-mono font-bold uppercase transition-colors duration-700 ${theme.accent}`}
             >
-              Fullstack Testing
+              QA/QC Engineer (Manual & Automation)
             </h3>
             <p className="text-xs uppercase tracking-[0.3em] opacity-50">
               Automation • API • SQL
@@ -182,7 +181,7 @@ export default function Home() {
             >
               <div className="flex-1 text-left leading-tight">
                 <p className="text-[10px] uppercase tracking-[0.38em] opacity-60">
-                  Professional Resume
+                  View My Resume
                 </p>
                 <p className="text-sm font-semibold uppercase tracking-[0.16em]">
                   Download My CV
