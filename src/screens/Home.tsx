@@ -4,7 +4,7 @@ import { FaGithub, FaFacebook, FaTiktok } from "react-icons/fa";
 import CrystalBackground from "../components/CrystalBackground";
 import { useTheme } from "../components/ThemeContext";
 import portraitImg from "../assets/home.png";
-import myCV from "../assets/CV_QA_Engineer_LeHuynhAnhTuyet.pdf";
+import myCV from "../assets/CV_QA_LeHuynhAnhTuyet.pdf";
 const OptimizedBackground = memo(CrystalBackground);
 
 export default function Home() {
