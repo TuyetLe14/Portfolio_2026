@@ -40,15 +40,15 @@ const domains = [
 const companyProjects: Project[] = [
   {
     title: "Insurance System (US Client)",
-    category: "Strategic QA Engineering",
+    category: "QA Engineering",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800",
-    teamsize: "Enterprise Team (30+ Members)",
+    teamsize: "Enterprise Team (~25 Members)",
     tools: "Postman, Rest Assured, Jira, SQL, Agile",
     description:
       "Deep-dive into complex business requirements (BRD/SRS) for a large-scale US insurance system. Led functional, regression, and integration testing across multiple modules.",
     achievement:
-      "Collaborated with a 30-member team to maintain high-quality standards for a large-scale Insurtech platform, ensuring a stable release.",
+      "Collaborated with a ~25-member team to maintain high-quality standards for a large-scale Insurtech platform, ensuring a stable release.",
     isFeatured: true,
   },
   {
@@ -80,7 +80,7 @@ const companyProjects: Project[] = [
     category: "Fullstack Development & QA (Intern)",
     image:
       "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=800",
-    teamsize: "Internship team",
+    teamsize: "",
     tools: "JavaScript, VS Code, Postman",
     description:
       "Developed a responsive frontend and optimized API integrations with backend services to ensure a seamless shopping experience.",
