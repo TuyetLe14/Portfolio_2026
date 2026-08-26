@@ -5,49 +5,61 @@ import CrystalBackground from "../components/CrystalBackground";
 
 const skillGroups = [
   {
-    title: "Manual & API Testing: ",
+    title: "Testing Methodologies",
     skills: [
       "Web & Mobile Testing (iOS/Android)",
-      "REST API Verification (Postman, Rest Assured)",
-      "Cross-browser Testing"
+      "Manual Testing",
+      "REST API Testing",
+      "Regression Testing",
+      "Test Case Design"
     ],
   },
   {
-    title: "Automation & Performance Testing",
+    title: "Automation Testing",
     skills: [
-      "Selenium WebDriver (Java)",
-      "TestNG",
+      "Selenium WebDriver",
+      "Java",
       "Page Object Model (POM)",
       "Data-driven Frameworks",
-      "Jenkins (CI/CD integration awareness)",
-      "Jmeter/k6 (Basic Load Testing)",
+      "TestNG",
     ],
   },
   {
     title: "Database & Querying",
     skills: [
-      "SQL: Experienced in writing complex queries (Joins, Subqueries) and executing/debugging Stored Procedures for data verification and test data setup",
-      "NoSQL: Practical experience with basic CRUD operations and document data inspection",
+      "SQL: Queries, Joins, Basic Stored Procedures",
+      "NoSQL: MongoDB/Basic",
     ],
   },
   {
-    title: "AI-assisted Testing",
+    title: "AI & Utilities",
     skills: [
-      " Leveraging AI tools to optimize test case generation, refine automation scripts, and accelerate data validation"
+      "AI-assisted testing tools (ChatGPT, Copilot for script drafting)"
     ],
   },
   {
-    title: "Tools:",
+    title: "CI/CD & Version Control",
     skills: [
-      "Jira",
+      "Github",
       "Git",
-      "Agile/Scrum",
+      "Actions",
+      "Jenkins (Triggering test jobs)"
     ],
   },
   {
-    title: "Other Skills",
+    title: "API & Performance Tools",
     skills: [
-      "Technical English",
+      "Postman",
+      "RestAssured",
+      "JMeter (Baseline testing)"
+    ],
+  },
+  {
+    title: "Languages & Communication",
+    skills: [
+      "Java",
+      "Sql",
+      "Technical English (documentation, issue logging, and written communication)",
       "Basic Deep Learning (self-learning)",
     ],
   },
