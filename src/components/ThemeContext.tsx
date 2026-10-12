@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, ReactNode } from 'react';
+import React, { createContext, useState, useContext, useEffect, ReactNode } from 'react';
 
 interface ThemeContextType {
   isLit: boolean;
@@ -8,7 +8,19 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
-  const [isLit, setIsLit] = useState(false);
+  const [isLit, setIsLit] = useState(() => {
+    try {
+      return localStorage.getItem('theme') === 'light';
+    } catch {
+      return false;
+    }
+  });
+  useEffect(() => {
+    try {
+      localStorage.setItem('theme', isLit ? 'light' : 'dark');
+    } catch {}
+  }, [isLit]);
+
   const toggleTheme = () => setIsLit((prev) => !prev);
 
   return (
